@@ -16,3 +16,11 @@ Many people struggle to get loans due to insufficient or non-existent credit his
 1. After visualizing the initial data, we use Python to perform feature engineering processing on the original data set to create new features: 1): use the domain knowledge to perform basic operations, establish statistical information and deal with unconventional data and data missing values; 2): use features related to loan time and the number of loan as a node to process time series data; 3): based on different part of data, create the cluster analysis of data features and combine data individuals with their clustering groups to perform variance analysis. The 218 initial features are eventually increased to 4429 total features.
 
 ![dataset](https://github.com/WallaceSUI/Home-Credit-Default-Risk-Classification-Competition---Google-Kaggle/blob/main/feature-engineering.png)
+
+2. We model the data using the machine learning and deep learning toolkits in Python: 1): use LightGBM, XGBoost, CatBoost and Neural Network (FFNN, CNN, RNN) to perform separate model training on the data; 2): use cross-validation method to divide the data into 5/7/10 subsets in order to test the training predictions; 3): use the bayesian optimization to adjust and optimize parameters for each model separately. In total, more than 100 different data model collocation schemes were combined, and 32 models were selected with relative higher accuracy for the next model fusion.
+
+![dataset](https://github.com/WallaceSUI/Home-Credit-Default-Risk-Classification-Competition---Google-Kaggle/blob/main/modeling.png)
+
+3. The Ensemble, Blending and Stacking algorithms are used to enhance fusion of each single model prediction result. The best result is combined with 4 LightGBM, 2 XGBoost, 1 CatBoost, 1 FFNN, 1 CNN and 1 RNN models.
+
+![dataset](https://github.com/WallaceSUI/Home-Credit-Default-Risk-Classification-Competition---Google-Kaggle/blob/main/results-embedding.png)
