@@ -24,3 +24,5 @@ Many people struggle to get loans due to insufficient or non-existent credit his
 3. The Ensemble, Blending and Stacking algorithms are used to enhance fusion of each single model prediction result. The best result is combined with 4 LightGBM, 2 XGBoost, 1 CatBoost, 1 FFNN, 1 CNN and 1 RNN models.
 
 ![dataset](https://github.com/WallaceSUI/Home-Credit-Default-Risk-Classification-Competition---Google-Kaggle/blob/main/results-embedding.png)
+
+4. A bronze medal at the end.
