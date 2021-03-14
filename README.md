@@ -11,3 +11,8 @@ Many people struggle to get loans due to insufficient or non-existent credit his
 2. There are 7 tables with 218 initial features (335230 observations in training dataset and 48744 observations in testing dataset).
 
 3. The final requirement of the game is to submit the default probability of each ID and the calculated AUC is used as the criterion.
+
+## Our Methods and Results
+1. After visualizing the initial data, we use Python to perform feature engineering processing on the original data set to create new features: 1): use the domain knowledge to perform basic operations, establish statistical information and deal with unconventional data and data missing values; 2): use features related to loan time and the number of loan as a node to process time series data; 3): based on different part of data, create the cluster analysis of data features and combine data individuals with their clustering groups to perform variance analysis. The 218 initial features are eventually increased to 4429 total features.
+
+![dataset](https://github.com/WallaceSUI/Home-Credit-Default-Risk-Classification-Competition---Google-Kaggle/blob/main/feature-engineering.png)
