@@ -6,3 +6,8 @@ Many people struggle to get loans due to insufficient or non-existent credit his
 
 ![dataset](https://github.com/WallaceSUI/Home-Credit-Default-Risk-Classification-Competition---Google-Kaggle/blob/main/competition-backgroud.png)
 
+1. Home Credit company hopes to estimate customer loan default probability through data mining and machine learning techniques.
+
+2. There are 7 tables with 218 initial features (335230 observations in training dataset and 48744 observations in testing dataset).
+
+3. The final requirement of the game is to submit the default probability of each ID and the calculated AUC is used as the criterion.
